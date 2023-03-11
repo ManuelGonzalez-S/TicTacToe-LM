@@ -27,6 +27,9 @@ nav ul button:hover{
 
 body{
     background-image: url(img/Fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 main{
