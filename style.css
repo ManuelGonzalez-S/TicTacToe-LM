@@ -93,115 +93,61 @@ p{
     border-radius: 10px;
 }
 
-@media screen and (min-width:769px){
-
-    #puntuaciones{
-        border: 1px solid white;
-        display: flex;
-        border-radius: 10px;
-        text-align: center;
-        color: white;
-    }
-
-    #puntuacionX{
-        border-right: 1px solid white;
-    }
-
-    .titulos{
-        border-bottom: 2px solid white;
-    }
-
-    #reseteoTablero{
-        background-color: blue;
-        color: white;
-        border: none;
-        border-radius: 15px;
-        text-align: center;
-        transition: 0.3s;
-        opacity: 0.8;
-        padding: 15px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    
-    #reseteoTablero:hover{
-        opacity: 1;
-        padding: 20px;
-    }
-
-    nav ul button:hover{
-        opacity: 1;
-        padding: 20px;
-    }
-
-    #reseteoPuntuacion{
-        background-color: blue;
-        color: white;
-        border: none;
-        border-radius: 15px;
-        text-align: center;
-        transition: 0.3s;
-        opacity: 0.5;
-        padding: 15px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    
-    #reseteoPuntuacion:hover{
-        opacity: 1;
-        padding: 20px;
-    }
+#puntuacionX{
+    border-right: 1px solid white;
 }
 
-@media screen and (max-width:769px) {
+#puntuaciones{
+    border: 1px solid white;
+    display: flex;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
 
-    #puntuacionX{
-        border-right: 1px solid black;
-    }
-    
-    .titulos{
-        border-bottom: 2px solid black;
-    }
+.titulos{
+    border-bottom: 2px solid black;
+}
 
-    #puntuaciones{
-        border: 1px solid black;
-        display: flex;
-        border-radius: 10px;
-        text-align: center;
-    }
+#reseteoTablero{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    transition: 0.3s;
+    opacity: 0.8;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
-    #reseteoTablero{
-        background-color: blue;
-        color: white;
-        border: none;
-        border-radius: 15px;
-        text-align: center;
-        transition: 0.3s;
-        opacity: 0.5;
-        padding: 15px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    
-    #reseteoTablero:hover{
-        opacity: 1;
-        padding: 20px;
-    }
+#reseteoTablero:hover{
+    opacity: 1;
+    padding: 20px;
+}
 
-    #reseteoPuntuacion{
-        background-color: blue;
-        color: white;
-        border: none;
-        border-radius: 15px;
-        text-align: center;
-        transition: 0.3s;
-        opacity: 0.5;
-        padding: 15px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    
-    #reseteoPuntuacion:hover{
+#reseteoPuntuacion{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    transition: 0.3s;
+    opacity: 0.5;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#reseteoPuntuacion:hover{
+    opacity: 1;
+    padding: 20px;
+}
+
+@media screen and (min-width:769px){
+
+    nav ul button:hover{
         opacity: 1;
         padding: 20px;
     }
