@@ -172,9 +172,7 @@ function comprobarVictoriaO(){
         valor3 = combinacionesGanadoras[combinacion][2]
     
         // Si se incluyen los tres valores, se añade una clase a la ficha
-        if(casillasO.includes(valor1)){
-            if(casillasO.includes(valor2)){
-                if(casillasO.includes(valor3)){
+        if(casillasO.includes(valor1) && casillasO.includes(valor2) && casillasO.includes(valor3)){
 
                     ficha1 = document.getElementsByClassName('casilla')[valor1];
                     ficha2 = document.getElementsByClassName('casilla')[valor2];
@@ -184,8 +182,7 @@ function comprobarVictoriaO(){
                     ficha1.classList += ' ganadora'
                     ficha2.classList += ' ganadora'
                     ficha3.classList += ' ganadora'
-                }
-            }
+                
         }
     }
 
